@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Feedback">
+
+
+
+
+    <TextView
+        android:id="@+id/h2feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feedback "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="75dp"></TextView>
+
+    <EditText
+        android:id="@+id/edt_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="150"
+        android:ems="100"
+        android:gravity="start|top"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:layout_marginRight="30dp"
+        android:inputType="textMultiLine" />
+    <!-- <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <CheckBox
+             android:id="@+id/excellent"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Excellent"
+             android:layout_marginLeft="60dp"
+             android:textColor="@color/black"
+             android:textSize="20dp"/>
+         <CheckBox
+             android:id="@+id/good"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Good"
+             android:textColor="@color/black"
+             android:textSize="20dp"/>
+
+         <CheckBox
+             android:id="@+id/poor"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Poor"
+             android:textColor="@color/black"
+             android:textSize="20dp"/>
+
+     </LinearLayout>
+ -->
+    <Button
+        android:id="@+id/btn_submit_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:text="Submit"></Button>
+
+
+</LinearLayout>

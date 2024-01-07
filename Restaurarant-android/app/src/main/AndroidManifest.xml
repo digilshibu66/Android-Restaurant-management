@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.restaurant">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/restuarant_icon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/restuarant_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Restaurant">
+        <activity android:name=".ShowFeedback"></activity>
+        <activity android:name=".AddMssgtrust" />
+        <activity android:name=".AddMssgfarm" />
+        <activity android:name=".farm_dashboard" />
+        <activity android:name=".trust_dashboard" />
+        <activity android:name=".FarmRegistration" />
+        <activity android:name=".TrustRegistration" />
+        <activity android:name=".OnlineChefCustomerOrder" />
+        <activity android:name=".OnlineChefOnlineOrder" />
+        <activity android:name=".TodaysMenuActivity" />
+        <activity android:name=".DeliveryOrder" />
+        <activity android:name=".onlinePayment" />
+        <activity android:name=".OnlineOrderPay" />
+        <activity android:name=".Onlineorder" />
+        <activity android:name=".EditParking" />
+        <activity android:name=".SecurityDashboard" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Reservation_Update" />
+        <activity android:name=".Waiter_Dashboard" />
+        <activity android:name=".Deliveryboy_Dashboard" />
+        <activity android:name=".UpdateMenu" />
+        <activity android:name=".Chef_Dashboard" />
+        <activity android:name=".AddParking" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Payment" />
+        <activity android:name=".Parking" />
+        <activity android:name=".Reservation" />
+        <activity android:name=".Order" />
+        <activity android:name=".Menu" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
