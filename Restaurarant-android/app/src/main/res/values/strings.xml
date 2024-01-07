@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="host">http://192.168.29.15/restaurant_management_system/api/</string>
+</resources>
